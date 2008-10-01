@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Topic Name="Triangulation of polygons with holes" Title="Triangulation of polygons with holes" ContentsTitle="Triangulation of polygons with holes" Status="In Progress" CreatedOn="11-12-2006 18:03:35" ModifiedOn="11-12-2006 19:23:33" LayoutName="" AllStyleSheets="True" AllScripts="True" AutoGenerateIndexEntry="True" IncludeInHelpFile="True" HelpContextIDs="" Category="{DAD411D6-5265-44F5-8AF0-C72E34EE5809}">
+    <Notes/>
+    <s k="BodyText"><![CDATA[<P>This has been the main goal of this program. This task doesn't look easy on a first glance but isn't this complicated either, as it can be split up in two smaller tasks:</P>
+<OL>
+<LI>Connecting the outer polygon with the polygon inside representing the hole and thus creating a new polygon consisting of both of them.</LI>
+<LI>Triangulating the new, combined polygon.</LI></OL>
+<P>If the outer polygon contains more the one hole, just connect it with one of the holes and then connect the resulting, combined&nbsp;polygon with the next hole and so on.</P>
+<P>&nbsp;</P>
+<P>This way the task has been split up in <A href="Connecting nested polygons.html">connecting nested polygons</A> and the <A href="Triangulation of polygons.html">triangulation of one single polygon</A>. See the linked topics on how to achieve each of the tasks.</P>]]></s>
+</Topic>

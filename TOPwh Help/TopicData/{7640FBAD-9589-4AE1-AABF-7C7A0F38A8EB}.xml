@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Topic Name="Intersections of polygons and lines" Title="Intersections of polygons and lines" ContentsTitle="Intersections of polygons and lines" Status="In Progress" CreatedOn="05-12-2006 19:11:51" ModifiedOn="11-12-2006 17:39:57" LayoutName="" AllStyleSheets="True" AllScripts="True" AutoGenerateIndexEntry="True" IncludeInHelpFile="True" HelpContextIDs="" Category="{DAD411D6-5265-44F5-8AF0-C72E34EE5809}">
+    <Notes/>
+    <s k="BodyText"><![CDATA[<P>This is done in a quite simple approach, which is to test each segment of the polygon for an intersection with the given line. This breaks the problem down to the problem of intersections between line (or rays or segments).</P>
+<P>&nbsp;</P>
+<P>See <A href="Intersections of line segments.html">Intersections of line segments</A>&nbsp;for further details.</P>]]></s>
+</Topic>

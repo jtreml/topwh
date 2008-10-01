@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Glossary>
+    <n key="{9F8FFCD4-390C-49E6-8BDA-9EDEC77EE884}" nt="1" ct="1" c="" i="-1" cfn="" tid="{1BF06B7C-B23E-487F-AAE2-D17B4ABDBBF4}" url="" tb="">
+        <bf/>
+    </n>
+    <n key="{11856047-AEE6-4A00-B3DB-7DFC957A06F7}" nt="0" ct="2" c="User Interface" i="-1" cfn="" tid="" url="" tb="">
+        <bf/>
+        <n key="{00D5D8F1-BE0B-49B2-B327-C6D2FFB0541D}" nt="1" ct="1" c="" i="-1" cfn="" tid="{96546B40-24E8-4838-B48B-181EDD751C35}" url="" tb="">
+            <bf/>
+        </n>
+        <n key="{E4AD71A3-7B5B-4CEF-AABE-B84AB6682FD8}" nt="1" ct="1" c="" i="-1" cfn="" tid="{7961594E-52E2-4377-8F76-2BA5A36C8B2A}" url="" tb="">
+            <bf/>
+        </n>
+        <n key="{AB5C046E-0313-4E67-878A-872C000A79EE}" nt="1" ct="1" c="" i="-1" cfn="" tid="{116504DF-CB67-4122-BFD8-0334941806AE}" url="" tb="">
+            <bf/>
+        </n>
+    </n>
+    <n key="{36D909DE-D319-42DE-A8F7-8A3457E1E142}" nt="0" ct="2" c="Mathematical Background" i="-1" cfn="" tid="" url="" tb="">
+        <bf/>
+        <n key="{E1E9877F-D128-4E45-856D-4B8DF7536DC6}" nt="1" ct="1" c="" i="-1" cfn="" tid="{C0CDCE3C-3EA7-4662-ACA7-F954F3959184}" url="" tb="">
+            <bf/>
+        </n>
+        <n key="{B08FD70A-1F74-4976-973E-69D669D81F10}" nt="1" ct="1" c="" i="-1" cfn="" tid="{7640FBAD-9589-4AE1-AABF-7C7A0F38A8EB}" url="" tb="">
+            <bf/>
+        </n>
+        <n key="{7BB5E06B-EE63-4514-BB5A-7B94399184EB}" nt="1" ct="1" c="" i="-1" cfn="" tid="{00824962-3FD4-46B9-B8C5-60FA84ED65CD}" url="" tb="">
+            <bf/>
+        </n>
+        <n key="{79F537AB-E175-4E0F-8111-B4CED3FF4D55}" nt="1" ct="1" c="" i="-1" cfn="" tid="{3DD9772A-1AB5-4551-B028-55A9D9E8014A}" url="" tb="">
+            <bf/>
+        </n>
+        <n key="{A9590594-5267-43AE-8813-772CEA4CC96B}" nt="1" ct="1" c="" i="-1" cfn="" tid="{A0767BB0-7850-4B97-BB5F-8C90A4ECC037}" url="" tb="">
+            <bf/>
+        </n>
+        <n key="{438F0978-789A-428B-8F77-0763ADAC5F7A}" nt="1" ct="1" c="" i="-1" cfn="" tid="{B2CF54B0-8823-4147-A049-00D534724C8D}" url="" tb="">
+            <bf/>
+        </n>
+    </n>
+</Glossary>

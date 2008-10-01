@@ -1,0 +1,183 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA7E1678-EB10-42B9-BD90-A9AF044974CA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TOPwh</RootNamespace>
+    <AssemblyName>TOPwh</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>Code_Component.ico</ApplicationIcon>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\TOPwh.xml</DocumentationFile>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\TOPwh.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPolygon.cs" />
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\saveHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\SaveAllHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\openHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\NewDocumentHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\DeleteHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Information.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Code_Component.ico" />
+    <Content Include="Resources\DocumentHS.png" />
+    <Content Include="Resources\EditInformationHS.png" />
+    <Content Include="..\TOPwh Help\Build\TOPwh Help.chm">
+      <Link>TOPwh Help.chm</Link>
+    </Content>
+    <None Include="data\Dragon.pwh" />
+    <None Include="data\Hat.pwh" />
+    <None Include="data\New Correction.pwh" />
+    <None Include="data\Square.pwh" />
+    <None Include="data\Star.pwh" />
+    <None Include="data\Temp.pwh" />
+    <None Include="data\Temp1.pwh" />
+    <None Include="data\Temp2.pwh" />
+    <None Include="data\Temp3.pwh" />
+    <None Include="data\Temp4.pwh" />
+    <None Include="data\Temp5.pwh" />
+    <None Include="data\Temp6.pwh" />
+    <None Include="data\Total.pwh" />
+    <None Include="data\Total2.pwh" />
+    <None Include="data\Untitled.pwh" />
+    <None Include="data\Untitled12.pwh" />
+    <None Include="data\Untitled14.pwh" />
+    <None Include="data\Untitled16.pwh" />
+    <None Include="data\Untitled19.pwh" />
+    <None Include="data\Untitled2.pwh" />
+    <None Include="data\Untitled20.pwh" />
+    <None Include="data\Untitled3.pwh" />
+    <None Include="data\Untitled3Part1.pwh" />
+    <None Include="data\Untitled3Part2.pwh" />
+    <None Include="data\Untitled3Part3.pwh" />
+    <None Include="data\Untitled3Part4.pwh" />
+    <None Include="data\Untitled3Part5.pwh" />
+    <None Include="data\Untitled4.pwh" />
+    <None Include="data\Untitled5.pwh" />
+    <None Include="data\Untitled6.pwh" />
+    <None Include="data\Untitled7.pwh" />
+    <None Include="data\Untitled8.pwh" />
+    <None Include="data\Untitled9.pwh" />
+    <Content Include="Resources\Run.png" />
+    <Content Include="Resources\Input.png" />
+    <Content Include="Resources\Stop.png" />
+    <Content Include="Resources\Input.bmp" />
+    <Content Include="Resources\Slow.png" />
+    <Content Include="Resources\Step.png" />
+    <Content Include="Resources\Play.png" />
+    <Content Include="Resources\Pause.bmp" />
+    <Content Include="Resources\RolledBack.bmp" />
+    <Content Include="Resources\LegendHS.png" />
+    <Content Include="Resources\ShowRulelinesHS.png" />
+    <Content Include="Resources\OrgChartHS.png" />
+    <Content Include="Resources\RecordHS.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

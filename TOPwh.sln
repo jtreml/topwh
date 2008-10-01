@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TOPwh Documentation", "TOPwh Documentation", "{64DFC69B-595D-4AB7-9193-D9420AF50274}"
+	ProjectSection(SolutionItems) = preProject
+		TOPwh Documentation\settings.ndoc = TOPwh Documentation\settings.ndoc
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOPwh", "TOPwh\TOPwh.csproj", "{DA7E1678-EB10-42B9-BD90-A9AF044974CA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TOPwh Installer", "TOPwh Installer\TOPwh Installer.vdproj", "{B6A73274-702C-423F-8D77-45C9E5D9E7F7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TOPwh Source Code Installer", "TOPwh Source Code Installer\TOPwh Source Code Installer.vdproj", "{B924B41E-9661-48C6-8C00-EAD0F7B92A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOPwh Help", "TOPwh Help\TOPwh Help.csproj", "{D02DC0C7-5BF7-49D1-929A-6048E7351DD4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs01.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TOPwh\u0020Installer\\TOPwh\u0020Installer.vdproj
+		SccProjectName1 = TOPwh\u0020Installer
+		SccLocalPath1 = TOPwh\u0020Installer
+		SccProjectUniqueName2 = TOPwh\u0020Source\u0020Code\u0020Installer\\TOPwh\u0020Source\u0020Code\u0020Installer.vdproj
+		SccProjectName2 = TOPwh\u0020Source\u0020Code\u0020Installer
+		SccLocalPath2 = TOPwh\u0020Source\u0020Code\u0020Installer
+		SccProjectUniqueName3 = TOPwh\\TOPwh.csproj
+		SccProjectName3 = TOPwh
+		SccLocalPath3 = TOPwh
+		SccProjectUniqueName4 = TOPwh\u0020Help\\TOPwh\u0020Help.csproj
+		SccProjectTopLevelParentUniqueName4 = TOPwh.sln
+		SccProjectName4 = TOPwh\u0020Help
+		SccLocalPath4 = TOPwh\u0020Help
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Debug|.NET.Build.0 = Debug|Any CPU
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Release|.NET.ActiveCfg = Release|Any CPU
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Release|.NET.Build.0 = Release|Any CPU
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DA7E1678-EB10-42B9-BD90-A9AF044974CA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B6A73274-702C-423F-8D77-45C9E5D9E7F7}.Debug|.NET.ActiveCfg = Debug
+		{B6A73274-702C-423F-8D77-45C9E5D9E7F7}.Debug|Any CPU.ActiveCfg = Debug
+		{B6A73274-702C-423F-8D77-45C9E5D9E7F7}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{B6A73274-702C-423F-8D77-45C9E5D9E7F7}.Release|.NET.ActiveCfg = Release
+		{B6A73274-702C-423F-8D77-45C9E5D9E7F7}.Release|.NET.Build.0 = Release
+		{B6A73274-702C-423F-8D77-45C9E5D9E7F7}.Release|Any CPU.ActiveCfg = Release
+		{B6A73274-702C-423F-8D77-45C9E5D9E7F7}.Release|Any CPU.Build.0 = Release
+		{B6A73274-702C-423F-8D77-45C9E5D9E7F7}.Release|Mixed Platforms.ActiveCfg = Release
+		{B6A73274-702C-423F-8D77-45C9E5D9E7F7}.Release|Mixed Platforms.Build.0 = Release
+		{B924B41E-9661-48C6-8C00-EAD0F7B92A2A}.Debug|.NET.ActiveCfg = Debug
+		{B924B41E-9661-48C6-8C00-EAD0F7B92A2A}.Debug|Any CPU.ActiveCfg = Debug
+		{B924B41E-9661-48C6-8C00-EAD0F7B92A2A}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{B924B41E-9661-48C6-8C00-EAD0F7B92A2A}.Release|.NET.ActiveCfg = Release
+		{B924B41E-9661-48C6-8C00-EAD0F7B92A2A}.Release|.NET.Build.0 = Release
+		{B924B41E-9661-48C6-8C00-EAD0F7B92A2A}.Release|Any CPU.ActiveCfg = Release
+		{B924B41E-9661-48C6-8C00-EAD0F7B92A2A}.Release|Any CPU.Build.0 = Release
+		{B924B41E-9661-48C6-8C00-EAD0F7B92A2A}.Release|Mixed Platforms.ActiveCfg = Release
+		{B924B41E-9661-48C6-8C00-EAD0F7B92A2A}.Release|Mixed Platforms.Build.0 = Release
+		{D02DC0C7-5BF7-49D1-929A-6048E7351DD4}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{D02DC0C7-5BF7-49D1-929A-6048E7351DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02DC0C7-5BF7-49D1-929A-6048E7351DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02DC0C7-5BF7-49D1-929A-6048E7351DD4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D02DC0C7-5BF7-49D1-929A-6048E7351DD4}.Release|.NET.ActiveCfg = Release|Any CPU
+		{D02DC0C7-5BF7-49D1-929A-6048E7351DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02DC0C7-5BF7-49D1-929A-6048E7351DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02DC0C7-5BF7-49D1-929A-6048E7351DD4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

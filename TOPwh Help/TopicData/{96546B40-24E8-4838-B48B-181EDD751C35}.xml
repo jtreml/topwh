@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Topic Name="Drawing Mode" Title="Drawing Mode" ContentsTitle="Drawing Mode" Status="In Progress" CreatedOn="05-12-2006 22:40:20" ModifiedOn="11-12-2006 19:23:48" LayoutName="" AllStyleSheets="True" AllScripts="True" AutoGenerateIndexEntry="True" IncludeInHelpFile="True" HelpContextIDs="" Category="{B7C174B3-5F77-4676-A304-EA9620E44334}">
+    <Notes/>
+    <s k="BodyText"><![CDATA[<P><EM>Drawing mode</EM> is meant to draw new polygons in the current document.</P>
+<P>To activate drawing mode, click the <EM>Drawing Mode</EM> button in the <EM>Drawing</EM> tool bar. To exit this mode and enable the&nbsp;<EM>Algorithm</EM> tool bar after you're done drawing new polygons, click the button again.</P>
+<P>&nbsp;</P>
+<P><STRONG>Drawing Polygons</STRONG></P>
+<P>After enabling <EM>Drawing mode</EM> just click on a point on the drawing area to <STRONG>start a new polygon</STRONG> at this point. Move your mouse cursor and you'll see a live preview of the current segment between the point you just set and you're current mouse cursor location.</P>
+<P>To set the current cursor position as the <STRONG>next vertex</STRONG>, just left-click. If there are any intersection with other polygons or the polygon currently being drawn, the vertex will not be set and you'll be warned by a message in the log window.</P>
+<P>To <STRONG>finish a polygon</STRONG>, right-click on the drawing area and and in the context menu select <EM>Close Polygon.</EM> Make sure there are no intersections with the closing segment, as the polygon cannot be closed in this point. Anyway, you'll again be informed by a message in the log window, if so.</P>
+<P>To <STRONG>cancel a polygon</STRONG> currently drawn, again right-click on the drawing area and select the context menu entry <EM>Cancel Polygon</EM>.</P>
+<P>&nbsp;</P>
+<P><STRONG>Delete Polygons</STRONG></P>
+<P>Select a polygon by either clicking on it in the polygon list or on the drawing area (only if not in <EM>Drawing mode</EM>).</P>
+<P>To actually delete the polygon, right-click on it in the polygon list and select one of the following context menu entries:</P>
+<UL>
+<UL>
+<LI><EM>Delete polygon </EM>to delete the current polygon but keep the polygons inside it.</LI>
+<LI><EM>Delete polygon and all child polygons</EM> to delete the current polygon and all polygons inside it.</LI></UL></UL>]]></s>
+</Topic>

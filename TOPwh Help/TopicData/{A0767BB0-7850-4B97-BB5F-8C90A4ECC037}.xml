@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Topic Name="Triangulation of polygons" Title="Triangulation of polygons" ContentsTitle="Triangulation of polygons" Status="In Progress" CreatedOn="05-12-2006 19:13:51" ModifiedOn="11-12-2006 19:18:56" LayoutName="" AllStyleSheets="True" AllScripts="True" AutoGenerateIndexEntry="True" IncludeInHelpFile="True" HelpContextIDs="" Category="{DAD411D6-5265-44F5-8AF0-C72E34EE5809}">
+    <Notes/>
+    <s k="BodyText"><![CDATA[<P>The triangulation of a polygon (and in this special case a polygon that has been connected with nested polygons before) has been the second big task of this program and is implemented in the form of a modified version of the algorithm of finding and cutting off "ears" as follows:</P>
+<P>&nbsp;</P>
+<P><STRONG>Algorithm:</STRONG></P>
+<OL>
+<LI>If the polygon contains more than tree vertices, find the first convex vertex in the polygon.</LI>
+<LI>For all other vertices in the polygon, test if they are inside the triangle formed by the convex vertex and it's predecessor and successor.</LI>
+<LI>If there are no other vertices in this triangle, add the segment connecting the convex vertex's predecessor and successor to the list of diagonals and remove the convex vertex from the polygon.<BR><EM>Start over again with step one.</EM></LI>
+<LI>If there is another vertex inside the triangle, select the one closest to the convex vertex, add the segment between this vertex and the convex vertex to the list of diagonals and split up the polygon connecting the two vertices.<BR><EM>Abandon the current polygon and apply this algorithm to the two resulting polygons.</EM></LI></OL>
+<P><EM></EM>&nbsp;</P>
+<P><STRONG>Notes:</STRONG></P>
+<P>Instead of looping through all convex vertices of the polygon and for each one again looping through all vertices to test whether it is an "ear" or not and if not, continue with the next convex vertex and starting over again with the first vertex once having gotten to the last vertex of the polygon until the polygon is completely triangulated (which would be O(n<SPAN lang=ES style="FONT-SIZE: 11pt; LINE-HEIGHT: 115%; FONT-FAMILY: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: ES; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><SUP>3</SUP></SPAN>), this vertex uses a divide and conquer architecture to break down the polygon in two sub-polygons if a convex vertex isn't an "ear" and thus achieves O(n<SPAN lang=ES style="FONT-SIZE: 11pt; LINE-HEIGHT: 115%; FONT-FAMILY: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: ES; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><SUP>2</SUP></SPAN>).</P>]]></s>
+</Topic>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Topic Name="Main Window" Title="Main Window" ContentsTitle="Main Window" Status="In Progress" CreatedOn="11-12-2006 15:54:27" ModifiedOn="11-12-2006 19:23:45" LayoutName="" AllStyleSheets="True" AllScripts="True" AutoGenerateIndexEntry="True" IncludeInHelpFile="True" HelpContextIDs="" Category="{B7C174B3-5F77-4676-A304-EA9620E44334}">
+    <Notes/>
+    <s k="BodyText"><![CDATA[<P>Here's a short description of the program's user interface and how to use the program.</P>
+<P>&nbsp;</P>
+<P><STRONG>The Application's Main Window</STRONG></P>
+<P>Here you can see a screen shot of the application's main window.</P>
+<P align=left><IMG alt="" src="images\ScreenCap.png" useMap=#{13B5C709-F3F0-43B6-95D6-36591971A744} border=0></P><MAP name={13B5C709-F3F0-43B6-95D6-36591971A744}><AREA shape=RECT alt="Drawing Area" coords=136,64,675,517 href="#drawing area"><AREA shape=RECT alt="Menu and Toolbars" coords=3,16,848,62 href="#menu and toolbar"><AREA shape=RECT alt="Polygon List" coords=5,62,133,515 href="#polygon list"><AREA shape=RECT alt=Toolbox coords=679,63,848,514 href="#toolbox"><AREA shape=RECT alt="Log Window" coords=3,520,850,619 href="#log window"></MAP>
+<P>&nbsp;</P>
+<P>Basically, the windows consists of four parts:</P>
+<UL>
+<UL>
+<LI>The <A name="menu and toolbar"></A><EM>menu and tool bar area</EM> which allows you to control saving, opening and resetting a file as well as executing an algorithm.</LI>
+<LI>The <A name="status bar"></A><EM>status bar</EM> which shows you the current mouse position on the drawing are.<BR>(This is useful to set exact polygon points.)</LI>
+<LI>The <A name="drawing area"></A><EM>drawing area</EM> where you can <A href="Drawing Mode.html">draw polygons</A> and see the algorithm results.</LI>
+<LI>The sub-windows around the drawing area which are:</LI>
+<UL>
+<LI>The <A name="polygon list"></A><EM>polygon list</EM> which shows your polygons so far in a tree view style to see which polygon's are contain in others and furthermore gives you the possibility to delete polygons via it's context menu.</LI>
+<LI>The <A name=toolbox></A><EM><A href="Toolbox Window.html">toolbox</A></EM> which allows you to control the drawing area's settings like what to draw and how to draw it.</LI>
+<LI>The <A name="log window "></A><EM>log window </EM>which is used to display warnings when drawing a polygon (e.g. intersections) as well as algorithm output</LI></UL></UL></UL>
+<P>&nbsp;</P>
+<P><STRONG>Menus and Toolbars</STRONG></P>
+<P>The menu is more or less identical to a typical Windows application and should not need further explanation.</P>
+<P>The toolbars, one the one provide quick access to some of the menu function, on the other hand control the program's drawing and algorithm functionality in the following&nbsp;way:</P>
+<UL>
+<UL>
+<LI>The <EM>Control</EM> tool bar gives you the possibility to start the triangulation process in either (green arrow buttons from left to right)full speed, slow motion or single step mode. The next two buttons (play and pause) control the forward stepping or pausing of the algorithm in single step or slow motion mode. Whereas the last button (stop) ends the triangulation mode. 
+<P><IMG alt="" src="images\ScreenCap4.png" border=0></P>
+<P>Not that while running an algorithm, you cannot enter drawing mode to draw new polygons. Stop algorithm mode (by hitting the stop button) to enable the <EM>Drawing</EM> tool bar.</P></LI></UL></UL>
+<UL>
+<UL>
+<LI>The <EM>Drawing</EM> tool bar is used to enter or exit polygon drawing mode. While in drawing mode, you can draw polygons but you cannot run an algorithm. End the drawing mode to enable the algorithm <EM>Control</EM> tool bar. 
+<P><IMG alt="" src="images\ScreenCap3.png" border=0></P></LI>
+<LI>The <EM>View</EM> tool bar (just like the View menu) allows you to show / hide (from left to right) the polygon list, the low window and the toolbox window. 
+<P><IMG alt="" src="images\ScreenCap2.png" border=0></P></LI>
+<LI>
+<P>Last but not least, the <EM>Standard</EM> tool bar provides a shortcut to exit the program.</P>
+<P><IMG alt="" src="images\ScreenCap1.png" border=0></P></LI></UL></UL>]]></s>
+</Topic>
