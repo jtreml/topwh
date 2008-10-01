@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<project SchemaVersion="2.0">
+    <assemblies>
+        <assembly location="..\TOPwh\bin\Release\TOPwh.exe" documentation="..\TOPwh\bin\Release\TOPwh.xml" />
+    </assemblies>
+    <documenters>
+        <documenter name="MSDN-Help2">
+            <property name="CollectionNamespace" value="jt.topwh" />
+            <property name="GenerateCollectionFiles" value="True" />
+            <property name="PlugInNamespace" value="ms.vsipcc" />
+            <property name="OutputDirectory" value=".\Build\help2\" />
+            <property name="HtmlHelpName" value="TOPwh Documentation" />
+            <property name="Title" value="TOPwh Documentation" />
+            <property name="NamespaceTocStyle" value="Hierarchical" />
+            <property name="NestedTypeTocStyle" value="Hierarchical" />
+            <property name="DocumentInheritedMembers" value="False" />
+            <property name="DocumentInheritedFrameworkMembers" value="False" />
+            <property name="DocumentExplicitInterfaceImplementations" value="True" />
+            <property name="DocumentInternals" value="True" />
+            <property name="DocumentSealedProtected" value="True" />
+            <property name="DocumentPrivates" value="True" />
+            <property name="CopyrightText" value="© 2006 Jürgen Treml. All Rights Reserved." />
+            <property name="CopyrightHref" value="http://www.juergentreml.de/topwh" />
+            <property name="FeedbackEmailAddress" value="topwh@juergentreml.de" />
+            <property name="CleanIntermediates" value="True" />
+        </documenter>
+        <documenter name="MSDN-CHM">
+            <property name="OutputDirectory" value=".\Build\chm\" />
+            <property name="HtmlHelpName" value="TOPwh Documentation" />
+            <property name="Title" value="TOPwh Documentation" />
+            <property name="NamespaceTocStyle" value="Hierarchical" />
+            <property name="NestedTypeTocStyle" value="Hierarchical" />
+            <property name="DocumentInheritedMembers" value="False" />
+            <property name="DocumentInheritedFrameworkMembers" value="False" />
+            <property name="DocumentExplicitInterfaceImplementations" value="True" />
+            <property name="DocumentInternals" value="True" />
+            <property name="DocumentSealedProtected" value="True" />
+            <property name="DocumentPrivates" value="True" />
+            <property name="CopyrightText" value="© 2006 Jürgen Treml. All Rights Reserved." />
+            <property name="CopyrightHref" value="http://www.juergentreml.de/topwh" />
+            <property name="FeedbackEmailAddress" value="topwh@juergentreml.de" />
+            <property name="CleanIntermediates" value="True" />
+        </documenter>
+        <documenter name="XML">
+            <property name="OutputFile" value=".\doc\doc.xml" />
+        </documenter>
+        <documenter name="MSDN-Web">
+            <property name="OutputDirectory" value=".\Build\web\" />
+            <property name="HtmlHelpName" value="TOPwh Documentation" />
+            <property name="Title" value="TOPwh Documentation" />
+            <property name="NamespaceTocStyle" value="Hierarchical" />
+            <property name="NestedTypeTocStyle" value="Hierarchical" />
+            <property name="DocumentInheritedMembers" value="False" />
+            <property name="DocumentInheritedFrameworkMembers" value="False" />
+            <property name="DocumentExplicitInterfaceImplementations" value="True" />
+            <property name="DocumentInternals" value="True" />
+            <property name="DocumentSealedProtected" value="True" />
+            <property name="DocumentPrivates" value="True" />
+            <property name="CopyrightText" value="© 2006 Jürgen Treml. All Rights Reserved." />
+            <property name="CopyrightHref" value="http://www.juergentreml.de/topwh" />
+            <property name="FeedbackEmailAddress" value="topwh@juergentreml.de" />
+            <property name="CleanIntermediates" value="True" />
+        </documenter>
+        <documenter name="Intellisense">
+            <property name="OutputDirectory" value=".\intellisense\" />
+        </documenter>
+    </documenters>
+</project>

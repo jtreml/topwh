@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Topic Name="Toolbox Window" Title="Toolbox Window" ContentsTitle="Toolbox Window" Status="In Progress" CreatedOn="11-12-2006 16:13:52" ModifiedOn="11-12-2006 19:23:52" LayoutName="" AllStyleSheets="True" AllScripts="True" AutoGenerateIndexEntry="True" IncludeInHelpFile="True" HelpContextIDs="" Category="{B7C174B3-5F77-4676-A304-EA9620E44334}">
+    <Notes/>
+    <s k="BodyText"><![CDATA[<P>The <EM>Toolbox </EM>window gives you the possibility to control the drawing of polygons and algorithm results as well as to select what is to be drawn. Additionally it controls the grid.</P>
+<P>&nbsp;</P>
+<P><STRONG>Toolbox Window Options</STRONG></P>
+<P>Here's a list and a short description of the options you can change in the toolbox window. To reset these options to their default values, just click the <EM>Reset</EM> button in the top right corner of the window.</P>
+<P><IMG alt="" src="images\ScreenCap5.png" border=0></P>
+<P>&nbsp;</P>
+<P><U>The settings controlled by the toolbox window are:</U></P>
+<P dir=ltr style="MARGIN-RIGHT: 0px"><EM>Polygon Settings:</EM></P>
+<UL>
+<UL>
+<LI>DrawPolygons<BR>Show or hide user drawn polygons on the drawing area.</LI>
+<LI>HighlightSelection<BR>Highlight (in different color) the polygon selected by the user.</LI>
+<LI>ShadePolygons<BR>Fill polygons with color.</LI></UL></UL>
+<P><EM>Algorithm Settings:</EM></P>
+<UL>
+<UL>
+<LI>AddLogEntries<BR>Output algorithm information (e.g. duration, current step, ...) in the log window.</LI>
+<LI>BeepOnStep<BR>Play a sound for each step performed in slow motion or single step mode.</LI>
+<LI>ClearLogBeforeRun<BR>Clear the log window before running an algorithm.</LI>
+<LI>DrawAlgorithmData<BR>Enable or disable the drawing of data resulting from an algorithm (such as diagonals, polygon stack, ...).</LI>
+<LI>DrawConnectedPolygons<BR>Draw connected polygons that resulted from connecting a polygon with the polygons inside it before the triangulation.</LI>
+<LI>DrawConnections<BR>Draw the connection segment used to connect a polygon with the polygons inside it.</LI>
+<LI>DrawCurrentState<BR>Draw the current state of an a algorithm (such as vertices currently being tested, current polygon stack, ...)</LI>
+<LI>DrawDiagonals<BR>Show or hide the diagonals which resulted from running the triangulation.</LI>
+<LI>ShadeConnectedPolygons<BR>Fill the connected polygons that resulted from connecting a polygon with the polygons inside it before the triangulation with color.</LI>
+<LI>StepFrequency<BR>Number of milliseconds to pause between each step in slow motion mode.</LI>
+<LI>StepsPerClick<BR>Number of steps to perform on each click in single step mode. (Usually one)</LI>
+<LI>TriangulationLevel<BR>Triangulate polygons up to this level of depth. (Set to -1 for infinite level, i.e. triangulate all polygons)</LI></UL></UL>
+<P><EM>Grid Settings:</EM></P>
+<UL>
+<UL>
+<LI>GridWidth<BR>The width of the grid.</LI>
+<LI>ShowGrid<BR>Enable / disable the grid.</LI>
+<LI>SnapToGrid<BR>Restrict&nbsp;setting polygon vertices to points on the grid.</LI></UL></UL>
+<P><EM>Log Settings:</EM></P>
+<UL>
+<UL>
+<LI>LogBeepDisabled<BR>Disable the sound when adding a log entry.</LI>
+<LI>LogEnabled<BR>Enable / disable the log.</LI></UL></UL>
+<P><EM>Polygon Graphics:</EM></P>
+<P dir=ltr style="MARGIN-RIGHT: 0px">Sets the the colors, line strength and shading opacity for drawing polygons.</P>
+<UL>
+<UL>
+<LI>Polygon*<BR>Options for polygons drawn by the user.</LI>
+<LI>Selection*<BR>Options for the polygon currently selected by the user.</LI></UL></UL>
+<P><EM>Algorithm Graphics</EM></P>
+<P dir=ltr style="MARGIN-RIGHT: 0px">Sets the the colors, line strength and shading opacity for algorithm results.</P>
+<UL>
+<UL>
+<LI>ConnectedPolygons*<BR>Options for polygons that are the result of connecting&nbsp;a given polygon with the polygons inside.</LI>
+<LI>Connections*<BR>Segments used to connect a polygon with the polygons inside it.</LI>
+<LI>CurrentPoint*<BR>Options for points that are currently investigated&nbsp;/ tested / being looked at by an algorithm in progress.</LI>
+<LI>CurrentSegments*<BR>Options for segments that are currently investigated&nbsp;/ tested / being looked at by an algorithm in progress.</LI>
+<LI>Diagonals*<BR>Options for diagonals that have been found when connecting polygons or during a triangulation process.</LI>
+<LI>InvestigatedPolygons*<BR>Options for polygons that are currently investigated&nbsp;/ tested / being looked at by an algorithm in progress.</LI>
+<LI>LockedPoint*<BR>Options for&nbsp;points that have yet been identified to match a certain criteria while other points are still being tested by an algorithm in progress (e.g. points currently closest to another point while testing other points if they are closer to it).</LI>
+<LI>LockedSegment*<BR>Options for segments that have yet been identified to match a certain criteria while other segments are still being tested by an algorithm in progress (e.g. segments that are intersecting with a certain segment while other segments are being tested for intersection).</LI>
+<LI>StackedPolygons*<BR>Options for polygons that have been pushed on a stack during an algorithm in process and still need to be treated.</LI></UL></UL>
+<P><EM>Grid Graphics</EM></P>
+<P dir=ltr style="MARGIN-RIGHT: 0px">Sets the the color and&nbsp;line strength for the grid.</P>]]></s>
+</Topic>

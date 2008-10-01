@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<HSProject ProjectType="1" Version="2.0.285" SaveDateTime="12.12.2006 00:26:02" DXPFileName="" TemplateName="HelpStudio 2005 Style" SpellLastCheckDateTime="0:00:00" Title="TOPwh Help" SCCActivated="True" SCCProject="$/TOPwh/TOPwh Help/" HelpContextIDHeaderFile="" OutputDirectory="" AutoGenerateIndexEntries="True" AutoGenerateCategoryIndex="False" BuildDXProject="False" DefaultTopic="" Lite="False">
+    <SpellIgnoreAllWordList/>
+    <BuildFlags/>
+    <cat Name="Getting Started" Key="C1" AutoIndex="True"/>
+    <cat Name="Tutorials" Key="C2" AutoIndex="True"/>
+    <cat Name="Reference" Key="C3" AutoIndex="True"/>
+    <cat Name="Support" Key="C4" AutoIndex="True"/>
+    <cat Name="Microsoft Help 2.x Error Pages" Key="C5" AutoIndex="True"/>
+    <cat Name="Algorithms" Key="{DAD411D6-5265-44F5-8AF0-C72E34EE5809}" AutoIndex="True"/>
+    <cat Name="User Interface" Key="{B7C174B3-5F77-4676-A304-EA9620E44334}" AutoIndex="True"/>
+    <VariableValue Name="FeedbackLink"><![CDATA[<a href="mailto:topwh@juergentreml.de?subject=TOPwh Help Feedback: %%FileName%%">Send comments</a> on this topic.]]></VariableValue>
+    <VariableValue Name="CopyrightNotice"><![CDATA[&copy; 2006 Jürgen Treml. All Rights Reserved.<br>Click <a href="http://www.juergentreml.de/topwh">here</a> to go to the TOPwh website for more information.]]></VariableValue>
+    <file FileName="stopwordlist.txt" CaptureInfo="" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap.png" CaptureInfo="38,46,1367,1014,1" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap_thumb.png" CaptureInfo="" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap1.png" CaptureInfo="-4,26,1404,1054,1" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap1_thumb.png" CaptureInfo="" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap2.png" CaptureInfo="-4,26,1404,1054,1" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap2_thumb.png" CaptureInfo="" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap3.png" CaptureInfo="-4,26,1404,1054,1" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap3_thumb.png" CaptureInfo="" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap4.png" CaptureInfo="-4,26,1404,1054,1" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap4_thumb.png" CaptureInfo="" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap5.png" CaptureInfo="-4,26,1404,1054,1" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <file FileName="images\ScreenCap5_thumb.png" CaptureInfo="" IncludeInOutput="True" IncludeInBookletOutput="True"/>
+    <Topic Key="{C0CDCE3C-3EA7-4662-ACA7-F954F3959184}"/>
+    <Topic Key="{7640FBAD-9589-4AE1-AABF-7C7A0F38A8EB}"/>
+    <Topic Key="{00824962-3FD4-46B9-B8C5-60FA84ED65CD}"/>
+    <Topic Key="{3DD9772A-1AB5-4551-B028-55A9D9E8014A}"/>
+    <Topic Key="{A0767BB0-7850-4B97-BB5F-8C90A4ECC037}"/>
+    <Topic Key="{1BF06B7C-B23E-487F-AAE2-D17B4ABDBBF4}"/>
+    <Topic Key="{96546B40-24E8-4838-B48B-181EDD751C35}"/>
+    <Topic Key="{7961594E-52E2-4377-8F76-2BA5A36C8B2A}"/>
+    <Topic Key="{116504DF-CB67-4122-BFD8-0334941806AE}"/>
+    <Topic Key="{B2CF54B0-8823-4147-A049-00D534724C8D}"/>
+    <GlossaryItems/>
+    <Manifests/>
+    <Nodes/>
+    <Tasks/>
+    <BuildProfiles>
+        <BuildProfile ID="{FC80734F-A1AA-48A5-A41B-E629D6FEABFE}" Name="Default" OutputDirectory="" CompileHelpFile="True" HTMLHelpVersion="1" H2Namespace="" H2FileID="" H2PlugIn="" HelpFileName="Build\TOPwh Help.chm" UseBuildFlags="False" ProjectTitle="" RemoveOutputFiles="True" BuildFlags="" IncludeInBuild="True" DefaultTopicID="" LocaleID="0"/>
+    </BuildProfiles>
+    <ProjectProperties/>
+</HSProject>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Topic Name="Points inside or outside a polygon" Title="Points inside or outside a polygon" ContentsTitle="Points inside or outside a polygon" Status="In Progress" CreatedOn="05-12-2006 19:11:03" ModifiedOn="11-12-2006 18:02:58" LayoutName="" AllStyleSheets="True" AllScripts="True" AutoGenerateIndexEntry="True" IncludeInHelpFile="True" HelpContextIDs="" Category="{DAD411D6-5265-44F5-8AF0-C72E34EE5809}">
+    <Notes/>
+    <s k="BodyText"><![CDATA[<P>For convex polygons this can be done quite easily by checking whether the signed are of the triangle formed by the given point and two consecutive vertices has the same sign for each two consecutive vertices of the polygon.</P>
+<P>&nbsp;</P>
+<P>Anyway, this problem is more complicated for general simple but not necessarily convex polygons.</P>
+<P>A possible approach is to cast a ray from the given point&nbsp;in any direction&nbsp;and count the number if intersections. If odd, the point is inside, if even it's outside.</P>
+<P>To make this easy and fast, one could cast a horizontal ray to the right of the given point, and this is exactly what&nbsp;os beeing done in this program.&nbsp;To speed&nbsp;this&nbsp;test up even more, one doesn't really have to use&nbsp;a general calculation for the intersection of lines such as described in <A href="Intersections of line segments.html">Intersections of line segments</A>&nbsp;but&nbsp;can use simple tests for horizontal lines.&nbsp;Nevertheless there are quite a few special cases to handle to ensure that the counting of intersections is correct.</P>
+<P>&nbsp;</P>
+<P>See this <A href="http://geometryalgorithms.com/Archive/algorithm_0103/algorithm_0103.htm">web site</A> for a more detailed explanation of this algorithm as well as a description of the alternative, so called <EM>Winding Number Inclusion</EM> test.</P>]]></s>
+</Topic>

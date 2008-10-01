@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Topic Name="Introduction" Title="Introduction" ContentsTitle="Introduction" Status="Complete" CreatedOn="05-12-2006 21:43:36" ModifiedOn="11-12-2006 19:23:54" LayoutName="" AllStyleSheets="True" AllScripts="True" AutoGenerateIndexEntry="True" IncludeInHelpFile="True" HelpContextIDs="" Category="C1">
+    <Notes/>
+    <s k="BodyText"><![CDATA[<P>TOPwh is the result of a practical project realized during the course of&nbsp;the lecture <A href="http://www.dma.fi.upm.es/docencia/segundociclo/geomcomp/home.htm">Geometría Computacional</A> at the <A href="http://www.upm.es/">Universidad Politécnica de Madrid</A>.</P>
+<P><STRONG></STRONG>&nbsp;</P>
+<P><STRONG>The idea behind the program</STRONG></P>
+<P>The task has been to write a program capable of triangulating polygons with holes. The program's name is derived from this task: <STRONG>T</STRONG>riangulation <STRONG>O</STRONG>f <STRONG>P</STRONG>olygons <STRONG>w</STRONG>ith <STRONG>h</STRONG>oles... Please forgive that lack of creativity ;-)</P>
+<P>To achieve the goal of this task, the program consists of mainly two big parts: The GUI functionality and implementations of algorithms from the field of computational geometry. Whereas the GUI provides some comfortable methods of drawing and editing polygons, the mathematical aspects of this program are its capabilities to located polygons in reference to each other, connect them without intersections and finally triangulate them. 
+<P>&nbsp;</P><STRONG>The content of this documentation</STRONG> 
+<P></P>
+<P>This help document is not meant to be a technical documentation of the program code. It's the end-user help which tells you how to use the program and besides, tries to give a little insight in the mathematics behind the scenes. Furthermore this help gives hints on the limitations of the program, possible improvements as well as related topics.</P>
+<P>Basically this help document consists of two parts:</P>
+<OL>
+<LI><A href="Main Window.html">The GUI description and explanation</A><A href="User Interface Description.html"></A></LI>
+<LI><A href="Triangulation of polygons with holes.html">Information about the algorithms used to achieve the programs goal</A><A href="Mathematical Background.html"></A></LI></OL>
+<P>&nbsp;</P>
+<P><STRONG>Additional information</STRONG></P>
+<P>&nbsp;More information about the program as well as the mathematics behind can be found online on the following sites:</P>
+<UL>
+<LI>TOPwh <A href="http://www.juergentreml.de/topwh">Homepage</A></LI>
+<LI><A href="http://www.juergentreml.de/wiki/index.php?title=Geometr%C3%ADa_Computacional">Wiki</A> with notes and explanations from the lecture for which TOPwh has been developed</LI>
+<LI>The <A href="http://www.dma.fi.upm.es/docencia/segundociclo/geomcomp/home.htm">course homepage</A> homepage of the lecture Geometría Computacional</LI></UL>]]></s>
+</Topic>

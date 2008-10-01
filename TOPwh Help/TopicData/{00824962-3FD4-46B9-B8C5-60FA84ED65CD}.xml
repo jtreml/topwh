@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Topic Name="Intersections of line segments" Title="Intersections of line segments" ContentsTitle="Intersections of line segments" Status="In Progress" CreatedOn="05-12-2006 19:12:46" ModifiedOn="11-12-2006 18:02:32" LayoutName="" AllStyleSheets="True" AllScripts="True" AutoGenerateIndexEntry="True" IncludeInHelpFile="True" HelpContextIDs="" Category="{DAD411D6-5265-44F5-8AF0-C72E34EE5809}">
+    <Notes/>
+    <s k="BodyText"><![CDATA[<P>This algorithm is not only about intersections between line segments but also between&nbsp;rays or lines or even mixtures of them.</P>
+<P>Basically this is about taking the equations for the given lines (or lines formed by a segment or ray) and finding a solution for them being equal. Finally if we're dealing with rays or segments, the resulting intersection point must be tested to be inside the segments or on the correct side of the rays starting point.</P>
+<P>Although this sounds quite simple, the code gets quite long as there are many special cases to be handled, such as parallel lines, collinear segments or degenerated lines which are points. For a detailed description of this algorithm and the complete mathematical background, visit this <A href="http://geometryalgorithms.com/Archive/algorithm_0104/algorithm_0104B.htm">web site.</A></P>
+<P>The program uses a code taken from this web site's sample implementation which has been adapted to meet the more general cases of not only testing for intersections between segments but also lines and rays, as mentioned above.</P>]]></s>
+</Topic>
