@@ -6,7 +6,7 @@ The project finally has found its home at CodePlex now. The original website at 
 
 A more or less final version has been given to university and with them agreeing to it been published here as well. Nevertheless it's still marked as a release candidate. That's because for me, the project's still not considered as completely done. Although the original requirements were met and all features are implemented, I'd still like to add a version of the Delaunay triangulation algorithm which tries to improve a found triangulation by flipping diagonals where it makes sense. Anyway, this is not a high priority task and I'm not required to do this by the lecture for which the program has been done, so it might take some time until I get to this.
 
-Besides this, the currently released version is considered stable and quite final. Just give it a try if you like and download TOPwh [release:1322](release_1322). Of course it's not perfect and bugs may well come with it but feel free to tell me about it if you encounter any. Minor updates introducing bug fixes will for sure be released before February.
+Besides this, the currently released version is considered stable and quite final. Just give it a try if you like and download TOPwh [0.0.0.1 Release Candidate](https://github.com/jtreml/topwh/releases/tag/v0.0.0.1-rc). Of course it's not perfect and bugs may well come with it but feel free to tell me about it if you encounter any. Minor updates introducing bug fixes will for sure be released before February.
 
 # Developers
 
